@@ -7,9 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "340px",
+        md: "540px",
+        lg: "768px",
+        xl: "1180px",
+      },
+      container: {
+        center: true,
+        padding: {
+          default: "12px",
+          md: "32px",
+        },
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        main_verde: "#7FAD39",
+        main_gris: "#F5F5F5",
       },
     },
   },
